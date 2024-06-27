@@ -1,77 +1,179 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
 
-      <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="">
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="" />
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-      <title>Responsive chips website - Bedimcode</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
+    <title>Responsive chips website - Bedimcode</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav">
+        <a href="#" class="nav__logo">CHIPS</a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+            <li>
+              <a href="#favorites" class="nav__link">Favorites</a>
+            </li>
+            <li>
+              <a href="#care" class="nav__link">Care</a>
+            </li>
+            <li>
+              <a href="#products" class="nav__link">Products</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+          <!--Close button-->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-large-line"></i>
+          </div>
+          <div class="nav__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="nav__social-link"
+              ><i class="ri-facebook-circle-line"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="nav__social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="nav__social-link"
+            >
+              <i class="ri-twitter-x-line"></i>
+            </a>
+          </div>
+        </div>
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-apps-2-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              SNACK <br />
+              WITH NO <br />
+              LIMITS
+            </h1>
+
+            <p class="home__description">
+              When you are hungry and don't have time to cook, snacks are the
+              perfect solution, always prepare for midday hunger.
+            </p>
+
+            <img src="./assets/img/meat.png" alt="image" class="home__meat" />
+
+            <div class="home__buttons">
+              <a href="#" class="button">Snack Now</a
+              ><a href="#" class="button button__ghost">Buy Now</a>
+            </div>
+          </div>
+          <div class="home__images">
+            <div class="home__circle">
+              <div class="home__subcircle"></div>
+            </div>
+            <img
+              src="./assets/img/home-chips.png"
+              alt="image"
+              class="home__img"
+            />
+            <img
+              src="./assets/img/chips-1.png"
+              alt="image"
+              class="home__chips-1"
+            /><img
+              src="./assets/img/chips-2.png"
+              alt="image"
+              class="home__chips-2"
+            /><img
+              src="./assets/img/chips-3.png"
+              alt="image"
+              class="home__chips-3"
+            /><img
+              src="./assets/img/tomato-1.png"
+              alt="image"
+              class="home__tomato-1"
+            /><img
+              src="./assets/img/tomato-2.png"
+              alt="image"
+              class="home__tomato-2"
+            /><img
+              src="./assets/img/leaf-3.png"
+              alt="image"
+              class="home__leaf"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== FAVORITES ====================-->
+      <section class="favorite section" id="favorites">
+
          
-      </header>
+      </section>
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            
-         </section>
+      <!--==================== CARE ====================-->
+      <section class="care section" id="care"></section>
 
-         <!--==================== FAVORITES ====================-->
-         <section class="favorite section" id="favorites">
-            
-         </section>
+      <!--==================== BANNER ====================-->
+      <section class="banner"></section>
 
-         <!--==================== CARE ====================-->
-         <section class="care section" id="care">
-            
-         </section>
+      <!--==================== PRODUCTS ====================-->
+      <section class="products section" id="products"></section>
 
-         <!--==================== BANNER ====================-->
-         <section class="banner">
-            
-         </section>
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact"></section>
+    </main>
 
-         <!--==================== PRODUCTS ====================-->
-         <section class="products section" id="products">
-            
-         </section>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer"></footer>
 
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            
-         </section>
-      </main>
+    <!--========== SCROLL UP ==========-->
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         
-      </footer>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
 
-      <!--========== SCROLL UP ==========-->
+    <!--=============== SWIPER JS ===============-->
+    <script src=""></script>
 
-
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
-
-      <!--=============== SWIPER JS ===============-->
-      <script src=""></script>
-
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
