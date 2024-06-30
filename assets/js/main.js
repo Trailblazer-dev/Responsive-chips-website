@@ -41,7 +41,7 @@ const swiperFavorites = new Swiper('.favorites__swiper', {
   slidesPerView:'auto',
   centeredSlides:'auto',
 });
-
+//swiper haina mambo mob just some modifications
 
 /*=============== SHOW SCROLL UP ===============*/ 
 const scrollUp = ()=>{
@@ -73,5 +73,10 @@ sections.forEach(current =>{
 window.addEventListener('scroll',scrollActive);
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
-
-
+//scrollReveal u have to write from scratch
+const sr = ScrollReveal({
+    origin:'top',
+    distance:'60px',
+    duration:2500,
+    delay:300
+})
